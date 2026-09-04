@@ -7,7 +7,7 @@ about:
   head: fdfcd84
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:26:34Z
+  collectedAt: 2026-09-04T21:06:08Z
 timeline:
   created: 2022-06-23
   lastCommit: 2026-07-17
@@ -86,5 +86,63 @@ total:
   openIssue: 19
   commit: 271
 ---
+path: /home/runner/.x-repo/github.com/folkertvanheusden/multitail
+collectedAt: 2026-09-04T21:06:09Z
+loc:
+  C:
+    code: 14109
+    comments: 629
+    blanks: 2832
+    files: 21
+  Bitbake:
+    code: 1336
+    comments: 212
+    blanks: 3
+    files: 1
+  CHeader:
+    code: 868
+    comments: 10
+    blanks: 128
+    files: 24
+  Html:
+    code: 217
+    comments: 1
+    blanks: 8
+    files: 2
+  CMake:
+    code: 157
+    comments: 30
+    blanks: 34
+    files: 1
+  Makefile:
+    code: 95
+    comments: 24
+    blanks: 24
+    files: 1
+  Perl:
+    code: 25
+    comments: 7
+    blanks: 11
+    files: 3
+  Sh:
+    code: 5
+    comments: 1
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 38
+    blanks: 16
+    files: 1
+  Text:
+    code: 0
+    comments: 24
+    blanks: 1
+    files: 1
+total:
+  code: 16814
+  comments: 976
+  blanks: 3061
+  files: 56
 ---
 
