@@ -12,6 +12,18 @@ Tail on steroids
 x install multitail
 ```
 
+## 代码规模
+
+合计: **16,812** 行代码（覆盖前 5 种语言、共 **49** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 14,109 | 629 | 2,832 | 21 |
+| Bitbake | 1,336 | 212 | 3 | 1 |
+| CHeader | 868 | 10 | 128 | 24 |
+| Html | 217 | 1 | 8 | 2 |
+| CMake | 157 | 30 | 34 | 1 |
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/folkertvanheusden/multitail>
@@ -31,20 +43,29 @@ x install multitail
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 3 | 0 | 2 | 0 | 4 |
 | 90d | 2026-06-12 | 0 | 6 | 0 | 3 | 1 | 4 |
+| last180d | 2026-03-14 | 0 | 6 | 0 | 3 | 1 | 7 |
 | 360d | 2025-09-15 | 0 | 12 | 0 | 5 | 4 | 15 |
+| last720d | 2024-09-20 | 0 | 15 | 0 | 7 | 10 | 34 |
 
-## 代码规模
+## 发行版状态
 
-合计: **16,812** 行代码（覆盖前 5 种语言、共 **49** 个文件）。
+在 [repology.org](https://repology.org/project/multitail) 上共有 **132** 个发行版报告此项目。**55** 个 ✅ 已是最新上游版本，**52** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 14,109 | 629 | 2,832 | 21 |
-| Bitbake | 1,336 | 212 | 3 | 1 |
-| CHeader | 868 | 10 | 128 | 24 |
-| Html | 217 | 1 | 8 | 2 |
-| CMake | 157 | 30 | 34 | 1 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `7.1.5` | ✅ latest |
+| Debian 14 | `7.1.5` | ✅ latest |
+| Debian 13 | `7.1.5` | ✅ latest |
+| Ubuntu 26.04 LTS | `7.1.5` | ✅ latest |
+| Ubuntu 24.04 LTS | `6.5.0` | ⚠️ outdated |
+| Homebrew | `7.1.5` | ✅ latest |
+| Fedora rawhide | `7.1.5` | ✅ latest |
+| Nix unstable | `7.1.5` | ✅ latest |
+| Void | `7.1.5` | ✅ latest |
+| Alpine edge | `7.1.5` | ✅ latest |
+| openSUSE Tumbleweed | `6.5.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -55,4 +76,4 @@ multitail 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:38:29Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:48:34Z._
