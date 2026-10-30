@@ -1,18 +1,6 @@
 - repo: aix_osp
   srcname: multitail
   visiblename: multitail
-  version: 5.2.12
-  origversion: 5.2.12-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.13
-  origversion: 5.2.13-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
   version: 5.2.6
   origversion: 5.2.6-1
   status: legacy
@@ -31,12 +19,6 @@
 - repo: aix_osp
   srcname: multitail
   visiblename: multitail
-  version: 5.2.10
-  origversion: 5.2.10-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
   version: "6.0"
   origversion: 6.0-1
   status: legacy
@@ -45,12 +27,6 @@
   visiblename: multitail
   version: "6.1"
   origversion: 6.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.11
-  origversion: 5.2.11-1
   status: legacy
 - repo: aix_osp
   srcname: multitail
@@ -100,6 +76,92 @@
     - tarball@aur
   licenses:
     - MIT
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-4.fc45
+  status: outdated
+  summary: View one or multiple files like tail but with multiple windows
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: chromebrew
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.6
+  origversion: null
+  status: newest
+  summary: MultiTail allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge.
+  licenses:
+    - GPL-2
+- repo: cygwin
+  srcname: multitail
+  binname: multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  summary: View files like tail, but with multiple windows
+  maintainers:
+    - andrew.schulman@cygwin
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Utils
+- repo: nix_stable_24_11
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: null
+  status: outdated
+  summary: tail on Steroids
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+- repo: cygwin
+  srcname: multitail
+  binname: multitail-debuginfo
+  visiblename: multitail-debuginfo
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  summary: View files like tail, but with multiple windows
+  maintainers:
+    - andrew.schulman@cygwin
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Debug
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.10
+  origversion: 5.2.10-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.11
+  origversion: 5.2.11-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.12
+  origversion: 5.2.12-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.13
+  origversion: 5.2.13-1
+  status: legacy
 - repo: alpine_3_17
   subrepo: community
   srcname: multitail
@@ -366,43 +428,6 @@
     - MIT
   categories:
     - Monitoring
-- repo: chromebrew
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.6
-  origversion: null
-  status: newest
-  summary: MultiTail allows you to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge.
-  licenses:
-    - GPL-2
-- repo: cygwin
-  srcname: multitail
-  binname: multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  summary: View files like tail, but with multiple windows
-  maintainers:
-    - andrew.schulman@cygwin
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Utils
-- repo: cygwin
-  srcname: multitail
-  binname: multitail-debuginfo
-  visiblename: multitail-debuginfo
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  summary: View files like tail, but with multiple windows
-  maintainers:
-    - andrew.schulman@cygwin
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Debug
 - repo: debian_11
   subrepo: bullseye/main
   srcname: multitail
@@ -584,6 +609,17 @@
     - MIT
   categories:
     - Unspecified
+- repo: openindiana
+  subrepo: hipster
+  srcname: multitail
+  binname: file/multitail
+  visiblename: multitail
+  version: 7.1.6
+  origversion: null
+  status: newest
+  summary: Tail multiple files on console with ncurses
+  categories:
+    - Applications/System Utilities
 - repo: fedora_39
   subrepo: release
   srcname: multitail
@@ -594,22 +630,6 @@
   visiblename: multitail
   version: 7.0.0
   origversion: 7.0.0-3.fc39
-  status: legacy
-  summary: View one or multiple files like tail but with multiple windows
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: multitail
-  binnames:
-    - multitail
-    - multitail-debuginfo
-    - multitail-debugsource
-  visiblename: multitail
-  version: 7.1.2
-  origversion: 7.1.2-3.fc40
   status: legacy
   summary: View one or multiple files like tail but with multiple windows
   licenses:
@@ -630,6 +650,22 @@
   summary: View one or multiple files like tail but with multiple windows
   licenses:
     - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: multitail
+  binnames:
+    - multitail
+    - multitail-debuginfo
+    - multitail-debugsource
+  visiblename: multitail
+  version: 7.1.2
+  origversion: 7.1.2-3.fc40
+  status: legacy
+  summary: View one or multiple files like tail but with multiple windows
+  licenses:
+    - Apache-2.0
   categories:
     - Unspecified
 - repo: fedora_41
@@ -682,20 +718,6 @@
   visiblename: multitail
   version: 7.1.5
   origversion: 7.1.5-3.fc44
-  status: outdated
-  summary: View one or multiple files like tail but with multiple windows
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_rawhide
-  subrepo: development
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-4.fc45
   status: outdated
   summary: View one or multiple files like tail but with multiple windows
   licenses:
@@ -867,19 +889,6 @@
     - MIT
   categories:
     - app-text
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.4.2
-  origversion: 6.4.2-3
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - universe/utils
 - repo: liguros_develop
   srcname: app-text/multitail
   visiblename: app-text/multitail
@@ -906,6 +915,32 @@
     - Apache-2.0
   categories:
     - app-text
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.5.0
+  origversion: 6.5.0-5
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
 - repo: liguros_develop
   srcname: app-text/multitail
   visiblename: app-text/multitail
@@ -988,17 +1023,6 @@
     - mail@beyermatthias.de
   licenses:
     - Apache-2.0
-- repo: nix_stable_24_11
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: null
-  status: outdated
-  summary: tail on Steroids
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_25_05
   srcname: multitail
   visiblename: multitail
@@ -1066,17 +1090,19 @@
   summary: Tail multiple files on console with ncurses
   categories:
     - Applications/System Utilities
-- repo: openindiana
-  subrepo: hipster
+- repo: raspbian_testing
+  subrepo: main
   srcname: multitail
-  binname: file/multitail
+  binnames:
+    - multitail
   visiblename: multitail
-  version: 7.1.6
-  origversion: null
-  status: newest
-  summary: Tail multiple files on console with ncurses
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
   categories:
-    - Applications/System Utilities
+    - utils
 - repo: openmandriva_6_0
   subrepo: unsupported/release
   srcname: multitail
@@ -1311,45 +1337,6 @@
     - rene@debian.org
   categories:
     - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.5.0
-  origversion: 6.5.0-5
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: raspbian_testing
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
 - repo: rosa_2019_1
   subrepo: contrib/release
   srcname: multitail
@@ -1446,6 +1433,19 @@
   visiblename: multitail
   version: 6.4.2
   origversion: 6.4.2-1build1
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - universe/utils
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.4.2
+  origversion: 6.4.2-3
   status: outdated
   maintainers:
     - rene@debian.org
