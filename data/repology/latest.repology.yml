@@ -1,3 +1,61 @@
+- repo: wikidata
+  srcname: Q62853546
+  visiblename: multitail
+  version: 7.1.6
+  origversion: null
+  status: newest
+  summary: utility
+  licenses:
+    - MIT License
+- repo: freebsd
+  srcname: sysutils/multitail
+  binname: multitail
+  visiblename: sysutils/multitail
+  version: 7.1.6
+  origversion: null
+  status: newest
+  summary: Tail multiple files on console with ncurses
+  maintainers:
+    - laszlo@karolyi.hu
+  categories:
+    - sysutils
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.5.0
+  origversion: 6.5.0-5
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.10
+  origversion: 5.2.10-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.11
+  origversion: 5.2.11-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.12
+  origversion: 5.2.12-1
+  status: legacy
+- repo: aix_osp
+  srcname: multitail
+  visiblename: multitail
+  version: 5.2.13
+  origversion: 5.2.13-1
+  status: legacy
 - repo: aix_osp
   srcname: multitail
   visiblename: multitail
@@ -52,165 +110,6 @@
   version: 6.4.2
   origversion: 6.4.2-1
   status: outdated
-- repo: deepin_unstable
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.4.2
-  origversion: 6.4.2-3
-  status: outdated
-  maintainers:
-    - rene@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.5.0
-  origversion: 6.5.0-3
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.5.0
-  origversion: 6.5.0-5
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: nix_stable_24_11
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: null
-  status: outdated
-  summary: tail on Steroids
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
-- repo: raspbian_testing
-  subrepo: main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: nix_stable_25_05
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: null
-  status: outdated
-  summary: tail on Steroids
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: null
-  status: outdated
-  summary: tail on steroids
-  maintainers:
-    - mail@beyermatthias.de
-  licenses:
-    - Apache-2.0
-- repo: debian_14
-  subrepo: forky/main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.10
-  origversion: 5.2.10-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.11
-  origversion: 5.2.11-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.12
-  origversion: 5.2.12-1
-  status: legacy
-- repo: aix_osp
-  srcname: multitail
-  visiblename: multitail
-  version: 5.2.13
-  origversion: 5.2.13-1
-  status: legacy
 - repo: alpine_3_17
   subrepo: community
   srcname: multitail
@@ -393,6 +292,19 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
 - repo: alpine_3_24
   subrepo: community
   srcname: multitail
@@ -406,19 +318,6 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 7.1.5
-  origversion: 7.1.5-2
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - utils
 - repo: alpine_3_24
   subrepo: community
   srcname: multitail
@@ -564,21 +463,58 @@
     - rene@debian.org
   categories:
     - utils
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: debian_14
+  subrepo: forky/main
   srcname: multitail
   binnames:
     - multitail
   visiblename: multitail
-  version: 6.5.0
-  origversion: 6.5.0-5
+  version: 7.1.5
+  origversion: 7.1.5-2
   status: outdated
   maintainers:
     - rene@debian.org
   categories:
     - utils
-- repo: debian_13
-  subrepo: trixie/main
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: deepin_unstable
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.4.2
+  origversion: 6.4.2-3
+  status: outdated
+  maintainers:
+    - rene@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.5.0
+  origversion: 6.5.0-3
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: multitail
   binnames:
     - multitail
@@ -675,22 +611,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: multitail
-  binnames:
-    - multitail
-    - multitail-debuginfo
-    - multitail-debugsource
-  visiblename: multitail
-  version: 7.1.2
-  origversion: 7.1.2-3.fc40
-  status: legacy
-  summary: View one or multiple files like tail but with multiple windows
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: multitail
   binnames:
@@ -706,6 +626,29 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: multitail
+  binnames:
+    - multitail
+    - multitail-debuginfo
+    - multitail-debugsource
+  visiblename: multitail
+  version: 7.1.2
+  origversion: 7.1.2-3.fc40
+  status: legacy
+  summary: View one or multiple files like tail but with multiple windows
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: homebrew
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.6
+  origversion: null
+  status: newest
+  summary: Tail multiple files in one terminal simultaneously
 - repo: fedora_41
   subrepo: release
   srcname: multitail
@@ -762,6 +705,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-4.fc45
+  status: outdated
+  summary: View one or multiple files like tail but with multiple windows
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: multitail
@@ -776,18 +733,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: freebsd
-  srcname: sysutils/multitail
-  binname: multitail
-  visiblename: sysutils/multitail
-  version: 7.1.6
-  origversion: null
-  status: newest
-  summary: Tail multiple files on console with ncurses
-  maintainers:
-    - laszlo@karolyi.hu
-  categories:
-    - sysutils
 - repo: gentoo
   srcname: app-text/multitail
   visiblename: app-text/multitail
@@ -835,13 +780,6 @@
   origversion: null
   status: outdated
   summary: Monitor multiple log files
-- repo: homebrew
-  srcname: multitail
-  visiblename: multitail
-  version: 7.1.6
-  origversion: null
-  status: newest
-  summary: Tail multiple files in one terminal simultaneously
 - repo: homebrew
   srcname: multitail
   visiblename: multitail
@@ -902,19 +840,6 @@
     - rene@debian.org
   categories:
     - utils
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.4.2
-  origversion: 6.4.2-1build1
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - universe/utils
 - repo: liguros_stable
   srcname: app-text/multitail
   visiblename: app-text/multitail
@@ -1058,6 +983,39 @@
   origversion: null
   status: outdated
   summary: tail on Steroids
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: null
+  status: outdated
+  summary: tail on Steroids
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_05
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: null
+  status: outdated
+  summary: tail on Steroids
+  maintainers:
+    - mail@beyermatthias.de
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: null
+  status: outdated
+  summary: tail on steroids
   maintainers:
     - mail@beyermatthias.de
   licenses:
@@ -1226,7 +1184,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: multitail
   binnames:
     - multitail
@@ -1239,7 +1197,7 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: multitail
   binnames:
     - multitail
@@ -1260,19 +1218,6 @@
   summary: Console Application view multiple files like the tail program
   categories:
     - Text tools
-- repo: ubuntu_18_04
-  subrepo: bionic/universe
-  srcname: multitail
-  binnames:
-    - multitail
-  visiblename: multitail
-  version: 6.4.2
-  origversion: 6.4.2-3
-  status: outdated
-  maintainers:
-    - rene@debian.org
-  categories:
-    - universe/utils
 - repo: pkgsrc_2026_2
   srcname: misc/multitail
   binname: multitail
@@ -1336,6 +1281,58 @@
   visiblename: multitail
   version: 6.5.0
   origversion: 6.5.0-3
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.5.0
+  origversion: 6.5.0-5
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 7.1.5
+  origversion: 7.1.5-2
   status: outdated
   maintainers:
     - rene@debian.org
@@ -1424,6 +1421,32 @@
   visiblename: multitail
   version: "6.0"
   origversion: 6.0-1
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - universe/utils
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.4.2
+  origversion: 6.4.2-1build1
+  status: outdated
+  maintainers:
+    - rene@debian.org
+  categories:
+    - universe/utils
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: multitail
+  binnames:
+    - multitail
+  visiblename: multitail
+  version: 6.4.2
+  origversion: 6.4.2-3
   status: outdated
   maintainers:
     - rene@debian.org
@@ -1546,12 +1569,3 @@
     - leah@vuxu.org
   licenses:
     - MIT
-- repo: wikidata
-  srcname: Q62853546
-  visiblename: multitail
-  version: 7.1.6
-  origversion: null
-  status: newest
-  summary: utility
-  licenses:
-    - MIT License
