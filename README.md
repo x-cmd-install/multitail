@@ -42,30 +42,12 @@ Total: **16,810** lines of code across **49** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 1 | 1 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 1 | 1 |
-| last180d | 2026-05-28 | 0 | 6 | 1 | 3 | 2 | 8 |
-| 360d | 2025-11-29 | 0 | 10 | 1 | 5 | 4 | 13 |
-| last720d | 2024-12-04 | 0 | 14 | 1 | 7 | 9 | 33 |
-
-## Distribution status
-
-Reported by **129** distros on [repology.org](https://repology.org/project/multitail). **11** are ✅ on the latest upstream release, **92** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `7.1.5` | ⚠️ outdated |
-| Debian 14 | `7.1.5` | ⚠️ outdated |
-| Debian 13 | `7.1.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `7.1.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `6.5.0` | ⚠️ outdated |
-| Homebrew | `7.1.6` | ✅ latest |
-| Fedora rawhide | `7.1.5` | ⚠️ outdated |
-| Nix unstable | `7.1.6` | ✅ latest |
-| Void | `7.1.5` | ⚠️ outdated |
-| Alpine edge | `7.1.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `6.5.0` | ⚠️ outdated |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 1 | 1 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 1 | 1 |
+| last180d | 2026-05-29 | 0 | 6 | 1 | 3 | 2 | 8 |
+| 360d | 2025-11-30 | 0 | 10 | 1 | 5 | 4 | 13 |
+| last720d | 2024-12-05 | 0 | 14 | 1 | 7 | 9 | 33 |
 
 ## Improve this data
 
@@ -76,4 +58,4 @@ Install metadata for multitail lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:07:36Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:32:37Z._
