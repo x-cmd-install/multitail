@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-26T08:24:28Z
+  collectedAt: 2026-11-28T08:10:20Z
 timeline:
   created: 2022-06-23
   lastCommit: 2026-10-14
@@ -33,47 +33,47 @@ language:
 totalBytes: 487958
 recent:
   last30d:
-    since: 2026-10-27
+    since: 2026-10-29
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 0
-    commit: 0
-  last60d:
-    since: 2026-09-27
-    release: 0
-    mergedPR: 0
-    openPR: 1
-    closedIssue: 0
-    openIssue: 1
-    commit: 0
+    commit: 1
   last90d:
-    since: 2026-08-28
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 1
     closedIssue: 0
     openIssue: 1
-    commit: 0
+    commit: 1
   last180d:
-    since: 2026-05-30
+    since: 2026-06-01
     release: 0
     mergedPR: 6
     openPR: 1
     closedIssue: 3
     openIssue: 2
-    commit: 0
+    commit: 8
   last360d:
-    since: 2025-12-01
+    since: 2025-12-03
     release: 0
     mergedPR: 10
     openPR: 1
     closedIssue: 5
     openIssue: 4
-    commit: 0
+    commit: 13
   last720d:
-    since: 2024-12-06
+    since: 2024-12-08
     release: 0
     mergedPR: 14
     openPR: 1
@@ -89,7 +89,7 @@ total:
   commit: 272
 ---
 path: /home/runner/.x-repo/github.com/folkertvanheusden/multitail
-collectedAt: 2026-11-26T08:24:29Z
+collectedAt: 2026-11-28T08:10:21Z
 loc:
   C:
     code: 14107
