@@ -42,12 +42,12 @@ Total: **16,810** lines of code across **49** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 0 | 0 | 1 | 0 | 1 | 0 |
-| 90d | 2026-08-28 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last180d | 2026-05-30 | 0 | 6 | 1 | 3 | 2 | 0 |
-| 360d | 2025-12-01 | 0 | 10 | 1 | 5 | 4 | 0 |
-| last720d | 2024-12-06 | 0 | 14 | 1 | 7 | 9 | 33 |
+| 30d | 2026-10-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 0 | 1 | 0 | 0 | 1 |
+| 90d | 2026-08-30 | 0 | 0 | 1 | 0 | 1 | 1 |
+| last180d | 2026-06-01 | 0 | 6 | 1 | 3 | 2 | 8 |
+| 360d | 2025-12-03 | 0 | 10 | 1 | 5 | 4 | 13 |
+| last720d | 2024-12-08 | 0 | 14 | 1 | 7 | 9 | 33 |
 
 ## Improve this data
 
@@ -58,4 +58,4 @@ Install metadata for multitail lives in the [x-cmd/install](https://github.com/x
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:24:50Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:10:40Z._
